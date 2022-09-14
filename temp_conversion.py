@@ -44,11 +44,11 @@ def hotter_temp():
     temp_1 = (30.2 * 9/5 + 32)
     temp_2 = 85.1
     if temp_1 > temp_2:
-        print(temp_1)
+        print('30.2 degrees celsius')
     elif temp_1 == temp_2:
         print('The temperatures are equal.')
     else:
-        print(temp_2)
+        print('85.1 degrees fahrenheit')
 
 hotter_temp()
 
